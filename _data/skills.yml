@@ -1,12 +1,17 @@
-# Skills
-# Donut design
-- skill: Donut design
-  description: Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research
+- skill: Unix Operating Systems
+  description: FreeBSD, FreeNAS and PfSense
 
-# Craft beer brewing
-- skill: Craft beer brewing
-  description: Hops inspection, brew testing, distribution management, bottle label design, festival and event management
+- skill: GNU/Linux Operating Systems
+  description: Alpine, Arch, CentOS, CoreOS Container Linux, Debian, RHEL and Ubuntu
 
-# Family leadership
-- skill: Family leadership
-  description: Bread winning, conflict resolution, couch inspection, TV longevity testing
+- skill: Other Open Source Software Experience
+  description: Ansible, Apache httpd, Bacula, Bind, Docker, Fluentd, Git, KVM, Kubernetes, MySQL, NGiNX, Packer, Python, PostgreSQL, Prometheus, qEMU, SMB/CIFS, Sensu, Snap Telemetry, Xen
+
+- skill: Proprietary Software Experience
+  description: MacOS, VMWare, Windows
+
+- skill: Programming Languages Experience
+  description: Bash and Python
+
+- skill: Networking Technology Experience
+  description: BGP, NAT, OSPF, RIP, TCP/IP, VPNs, VLAN

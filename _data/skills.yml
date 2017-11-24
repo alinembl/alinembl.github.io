@@ -1,20 +1,5 @@
-- skill: Knowledge & Abilities
-  description: Comprehensive knowledge of system engineering, reliability life-cycle management, and reliability modelling. Proficient in communicating professionally with excellent technical and troubleshooting skills. Skilled in conducting root cause analysis as well as possess sound knowledge of compliance technologies
+- skill: Linguagens
+  description: Python, HTML5 + CSS3, Javascript
 
-- skill: Unix Operating Systems
-  description: FreeBSD, FreeNAS and PfSense
-
-- skill: GNU/Linux Operating Systems
-  description: Alpine, Arch, CentOS, CoreOS Container Linux, Debian, RHEL and Ubuntu
-
-- skill: Other Open Source Software Experience
-  description: Ansible, Apache httpd, Bacula, Bind, Docker, Fluentd, Git, KVM, Kubernetes, MySQL, NGiNX, Packer, Python, PostgreSQL, Prometheus, qEMU, SMB/CIFS, Sensu, Snap Telemetry, Xen
-
-- skill: Proprietary Software Experience
-  description: MacOS, VMWare, Windows
-
-- skill: Programming Languages Experience
-  description: Bash and Python
-
-- skill: Networking Technology Experience
-  description: BGP, NAT, OSPF, RIP, TCP/IP, VPNs, VLAN
+- skill: Frameworks
+  description: Django

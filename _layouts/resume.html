@@ -38,7 +38,7 @@
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Email</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
@@ -51,7 +51,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Experiência</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -71,7 +71,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>Educação</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -112,7 +112,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Habilidades Técnicas</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -170,7 +170,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2>Cursos de Extensão</h2>
         </header>
 
         <div class="resume-item">

@@ -1,0 +1,24 @@
+{
+  "name": "alinembl.github.io",
+  "version": "1.0.0",
+  "description": "*A simple Jekyll + GitHub Pages powered resume template.*",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "rm -fR build; mkdir build; npm run build:all",
+    "build:all": "for i in html js; do npm run build:$i; done",
+    "build:html": "cp src/index.html build",
+    "build:js": "browserify src/index.js -o build/build.js -t babelify",
+    "serve": "npm run build; http-server build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.2",
+    "http-server": "^0.11.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}

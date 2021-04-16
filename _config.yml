@@ -1,6 +1,5 @@
 # Site settings
 title: "Aline Bispo"
-#description: "Site Reliability Engineer"
 
 # Build settings
 markdown: kramdown
@@ -11,10 +10,10 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Aline Mariana Bispo de Lima"
-resume_title:                   "Desenvolvedora Frontend"
-resume_contact_email:           "aline.blima26@gmail.com"
+resume_title:                   "Desenvolvedora Web"
+#resume_contact_email:           "aline.blima26@gmail.com"
 resume_contact_email:           "alinembispolima@gmail.com"
-resume_contact_telephone:       "+5585981836408"
+resume_contact_telephone:       "+5585981946408"
 resume_contact_address:         ""
 resume_header_contact_info: ""
 #resume_header_intro: |
@@ -41,9 +40,9 @@ resume_section_interests:       true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/alinembl"
-  resume_twitter_url:           "http://twitter.com/mari_lih"
+ # resume_twitter_url:           "http://twitter.com/mari_lih"
   resume_linkedin_url:          "https://www.linkedin.com/in/alinembl"
-#  resume_website_url:           "http://lucazz.me"
+
 resume_print_social_links:      true
 
 # Design settings
